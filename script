@@ -2,7 +2,7 @@
 local TeleportService = game:GetService("TeleportService")
 
 -- ID of the target game
-local gameId = 13775256536
+local gameId = 17625359962
 
 -- Teleport the player to the specified game
 local player = game.Players.LocalPlayer
