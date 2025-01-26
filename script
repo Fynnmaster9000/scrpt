@@ -1,0 +1,11 @@
+-- Script to teleport a player to another game
+local TeleportService = game:GetService("TeleportService")
+
+-- ID of the target game
+local gameId = 13775256536
+
+-- Teleport the player to the specified game
+local player = game.Players.LocalPlayer
+if player then
+    TeleportService:Teleport(gameId, player)
+end
