@@ -1,3 +1,6 @@
- -- Kicks the player with a message, they can leave the game
-    player:Kick("Youre banned from this experience heres a message from the owner: exploiter")
+game.Players.PlayerAdded:Connect(function(player)
+    -- Check if the player is an exploiter (you can add your own conditions here)
+    -- For demonstration, we'll just kick the player with the message directly.
 
+    player:Kick("You're banned from this experience. Here's a message from the owner: Exploiter")
+end)
