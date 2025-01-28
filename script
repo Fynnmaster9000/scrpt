@@ -1,4 +1,3 @@
  -- Kicks the player with a message, they can leave the game
-    player:Kick("Youre banned from this experience heres a message from the owner:
-    exploiter         ")
+    player:Kick("Youre banned from this experience heres a message from the owner: exploiter")
 
