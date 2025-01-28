@@ -112,7 +112,7 @@ local function LECSGAV_fake_script() -- sigmavirus.LocalScript
 	local blur = Instance.new("BlurEffect")  -- Create a new BlurEffect instance
 	
 	-- Set the blur effect properties
-	blur.Size = 10  -- Adjust the blur strength (0 to 25 range)
+	blur.Size = 22  -- Adjust the blur strength (0 to 25 range)
 	blur.Parent = lighting  -- Add the blur effect to Lighting
 	
 	-- Create a ScreenGui and a TextButton for testing the GUI
